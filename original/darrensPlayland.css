@@ -1,0 +1,187 @@
+p {
+    font-family: 'Slabo 27px', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+p a:link {
+    text-decoration: none;
+    color: #00d8ff;
+}
+p a:hover {
+    text-decoration: underline;
+    color: #00d8ff;
+}
+p a:active {
+    text-decoration: underline;
+    color: #00d8ff;
+}
+p a:visited {
+    text-decoration: none;
+    color: #00d8ff;
+}
+.headerright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Slabo 27px', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+    text-transform: lowercase;
+}
+body {
+    background-color: #f68c1f;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+main {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+}
+.headerlogo {
+    background: url(images/logo.svg) no-repeat;
+    width: 600px;
+    height: 90px;
+}
+.state1content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10px;
+}
+.introtext {
+    width: 65%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.state1content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0);
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.startbutton {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.startbutton a:link {
+    text-decoration: none;
+    color: white;
+}
+.startbutton a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.startbutton a:active {
+    text-decoration: underline;
+    color: white;
+}
+.startbutton a:visited {
+    text-decoration: none;
+    color: white;
+}
+.footerright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.donatebutton {
+    border: solid 2px #ccc;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.donatebutton a:link {
+    text-decoration: none;
+    color: #ccc;
+}
+.donatebutton a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+.donatebutton a:active {
+    text-decoration: underline;
+    color: #ccc;
+}
+.donatebutton a:visited {
+    text-decoration: none;
+    color: #ccc;
+}
+.sourcebutton {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    color: gray;
+    margin-right: 20px;
+    border: solid 2px gray;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sourcebutton a:link {
+    text-decoration: none;
+    color: gray;
+}
+.sourcebutton a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+.sourcebutton a:active {
+    text-decoration: underline;
+    color: gray;
+}
+.sourcebutton a:visited {
+    text-decoration: none;
+    color: gray;
+}
